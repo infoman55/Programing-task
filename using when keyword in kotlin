@@ -1,0 +1,27 @@
+fun main(){
+    print("Hello Guys! How are you. Hope So you are fine.Let's get started!")
+    print("In this we will see about use of when in kotlin Language.")
+val age=23
+    when(age)
+    {
+     17->print("You are not elected for voting.")
+    23-> print("You are elected for voting")
+        else->print("You are elected fro voting but it depends upon you what you want.")
+    }
+task()
+    print("This is constructor ")
+    task()
+}
+fun task(){
+    print("Hello Guys! I'm Ali Raza. come on let's have a fun in coding")
+    val age="Ali Raza"
+    if(age==null)
+    {
+        print("It's having a null value ")
+    }
+    else
+    {
+        print("It doesn't have any null value.")
+    }
+
+}
