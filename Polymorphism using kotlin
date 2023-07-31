@@ -1,0 +1,27 @@
+// Polymorphism
+// open keyword inheritance ky liy use hota hy.
+open class Ali{
+    // ham ny fuction ky sath  open keyword is liy use kia hy kiu ky ham ny function ko override karna hy.
+    open fun Greeting(){
+        println("Assalam-o-alaikum!")
+    }
+    // extend or inheretance ky liy ham colon ka use karty hy.
+    fun add(num1:Int, num2:Int):Int{
+        return num1+num2
+
+    }
+}
+// yaha per ham ny inheritance karwai hy.
+class Ahmad : Ali(){
+    // yaha per ham ny function ko override ky keyword sy override kar diya hy.
+    override fun Greeting(){
+        println("Kya hal hy ap sab ka. ")
+        // parent class ka message print karwana ho to may super keyword use karu ga.
+        super.Greeting()
+    }
+}
+fun main(){
+ val obj=Ahmad()
+ obj.Greeting()
+    obj.add(34,23)
+}
