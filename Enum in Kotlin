@@ -1,0 +1,18 @@
+enum class color {
+    Red,
+    Blue,
+    White,
+    Green,
+}
+fun main()
+{
+val value=color.Red
+println(value)
+    //ham ordinal keyword is liy use karty hy ky wo value dy us ki. sequence chalta hy.
+    println(value.ordinal)
+    // or agar ham ny sab ki values ka sequence chahey to ham forEach ka keyword or values ka bhi keyword use karty hy.
+    val value1=color.values()
+    value1.forEach{ println(it.ordinal)}
+    // or agar mujhy name chaheiy ho to mujhy name ka keyword use karna hoga.
+    value1.forEach { print(it.name) }
+}
