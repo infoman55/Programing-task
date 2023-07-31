@@ -1,0 +1,25 @@
+open class Parent {
+    var car="BMW"
+   fun carName1(){
+     println(car)
+    }
+}
+open class Child:Parent() {
+    var car1="Audi"
+fun carName(){
+    println(car1)
+}
+class Child1:Parent()
+{
+var car2="Honda"
+    fun carName2(){
+        println(car2)
+    }
+}
+}
+fun main(){
+    val obj=Child()
+    val obj1=Parent()
+    obj1.carName1 ()
+    obj.carName()
+}
