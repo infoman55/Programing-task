@@ -1,0 +1,26 @@
+fun main() {
+    print("Hello World")
+    val myName ="Ali Raza"
+    val marks : Int
+    marks=90
+    println("Hello my name is $myName and my marks in Probability & Statistics is $marks")
+    println("How old are you! ")
+    val age = readln() .toInt()
+    print("Your age is $age")
+if(age<18)
+{
+    print("You are small boy.")
+}
+    else if(age==18)
+{
+        print("Now you are not baby but not too Young man!!")
+}
+    else if(age>59)
+{
+        print("You are elder!")
+}
+    else
+{
+    print("You are older!")
+}
+}
