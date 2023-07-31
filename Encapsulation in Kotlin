@@ -1,0 +1,32 @@
+class calculator{
+    // is ko ham data members bolty hy
+    var num=23
+    var  num2=45
+// is ko ham member function kyhty hy.
+    fun add()
+    {
+        print("The sum of num and num2 is ${num+num2}")
+    }
+    fun multiply()
+    {
+        print("The multiplication of num and num2 is ${num*num2}")
+    }
+    fun divide(){
+        print("The division of num and num2 is ${num/num2}")
+    }
+    fun subtraction()
+    {
+        print("The subtraction of num and num2 is ${num-num2}")
+
+    }
+
+}
+fun main(){
+    val obj1=calculator()
+    obj1.add()
+    obj1.multiply()
+    obj1.subtraction()
+    obj1.divide()
+  println(obj1.num)
+  println(obj1.num2)
+}
